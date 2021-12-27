@@ -1,0 +1,162 @@
+body {
+  background-color: #b6ad90;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #656d4a;
+}
+
+#header-img {
+  width: 20%;
+  height: auto;
+}
+
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: ce;
+}
+ul {
+  margin-right: 40px;
+}
+li {
+  list-style: none;
+}
+.nav-link {
+  text-decoration: none;
+  color: #c2c5aa;
+}
+
+#hero {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+#email {
+  max-width: 275px;
+  width: 101%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0px;
+}
+
+#submit {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  border-radius: 10px;
+  background-color: #936639;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+}
+#features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #414833;
+  color: #c2c5aa;
+}
+
+#how-it-works {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+#pricing {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  #pricing {
+    flex-direction: column;
+  }
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  border-radius: 10px;
+  height: 300px;
+  background-color: #c2c5aa;
+}
+
+.product > h2 {
+  margin-top: 15px;
+}
+
+.level {
+  background-color: #656d4a;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.product ol li {
+  padding: 5px 0;
+}
+
+ol {
+  padding: 0px 20px 0px 20px;
+}
+
+.product button {
+  border: 0;
+  background-color: #414833;
+  color: #c2c5aa;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 400;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+  width: 100%;
+  background-color: #333d29;
+  padding: 20px;
+  color: #b6ad90;
+}
